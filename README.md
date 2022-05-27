@@ -4,6 +4,7 @@ How to use nlohmann_json under ROS1.
 
 ------
 
+
 ## Built with
 
 - ROS Melodic Morenia under Ubuntu 18.04 LTS
@@ -16,12 +17,20 @@ How to use nlohmann_json under ROS1.
 
 ### Installation
 
-- Installation libssh2.
+- Installation nlohmann json.
 
-    ``` $ sudo apt-get install ssh openssh-server libssh2-1-dev```
+    ``` $ git clone https://github.com/nlohmann/json.git```
+
+    ``` $ mkdir build && cd build ```
+    
+    ``` $ cmake .. ```
+
+    ``` $ make ```
+  
+    ``` $ sudo make install ```
 
 ------
 
 ## Reference:
 
-[1]. libssh2, https://www.libssh2.org
+[1]. json, https://github.com/nlohmann/json
