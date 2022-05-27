@@ -16,7 +16,7 @@ How to use nlohmann_json under ROS1.
 
 ### Installation
 
-- Installation ros package.
+- Installation nlohmann json.
 
     ``` $ git clone https://github.com/nlohmann/json.git```
 
