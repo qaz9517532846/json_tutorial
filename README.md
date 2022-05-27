@@ -16,20 +16,12 @@ How to use nlohmann_json under ROS1.
 
 ### Installation
 
-- Installation nlohmann json.
+- Installation libssh2.
 
-    ``` $ git clone https://github.com/nlohmann/json.git```
-
-    ``` $ mkdir build && cd build ```
-    
-    ``` $ cmake .. ```
-
-    ``` $ make ```
-  
-    ``` $ sudo make install ```
+    ``` $ sudo apt-get install ssh openssh-server libssh2-1-dev```
 
 ------
 
 ## Reference:
 
-[1]. json, https://github.com/nlohmann/json
+[1]. libssh2, https://www.libssh2.org
