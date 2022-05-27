@@ -1,0 +1,13 @@
+{
+    "Command": "SetMap",
+    "Para": "list",
+    "Result": 
+    {
+        "Length": 2,
+        "list":
+        [
+            {"Name":"ao_office_0513"},
+            {"Name":"ao_office_0520"}
+        ]
+    }
+}
